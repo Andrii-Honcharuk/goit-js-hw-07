@@ -1,0 +1,23 @@
+button {
+  color: antiquewhite;
+  background-color: #4E75FF;
+  justify-content: center;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  border: none;
+
+
+  padding-right: 16px;
+  padding-left: 16px;
+  border-color: inherit;
+  border-radius: 8px;
+}
+
+button:hover,
+button:active  {
+  background-color: #6C8CFF;
+}

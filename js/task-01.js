@@ -8,6 +8,7 @@ console.log(`Numbers of categories: ${listWithUl.length}`);
 listWithUl.forEach((category) => {
   const categoryTitle = category.querySelector('h2').textContent;
   const categoryEl = category.querySelectorAll('li');
-  console.log(`Category: ${categoryTitle}`);
-  console.log(`Elements: ${categoryEl.length}`);
+  console.log(`Category: ${category.firstElementChild.textContent}`);
+  console.log(`Elements: ${category.lastElementChild.children.length}`);
+  // console.log(category.lastElementChild.children.length);
 });

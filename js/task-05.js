@@ -15,5 +15,4 @@ changeColorButton.addEventListener('click', () => {
 
   colorSpan.textContent = randomColor;
 
-  colorSpan.style.color = randomColor;
 });

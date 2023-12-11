@@ -1,0 +1,27 @@
+.login-form {
+  padding: 24px;
+}
+
+label {
+  color: #2E2F42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+button {
+  border-color: inherit;
+  border-radius: 8px;
+  color: antiquewhite;
+  background-color: #4E75FF;
+  justify-content: center;
+
+}
+
+button:hover,
+button:focus,
+button:active  {
+  border-radius: 8px;
+  background-color: #6C8CFF;
+}

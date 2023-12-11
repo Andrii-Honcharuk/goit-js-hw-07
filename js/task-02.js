@@ -28,18 +28,18 @@ const images = [
 
 const galleryList = document.querySelector('ul.gallery');
 
-const fragment = document.createDocumentFragment();
-
-
-images.forEach((image) => {
+const galleryItems = images.map((image) => {
   const li = document.createElement('li');
   const img = document.createElement('img');
+
+  li.classList.add('gallery-item');
+  img.classList.add('img');
 
   img.src = image.url;
   img.alt = image.alt;
 
   li.appendChild(img);
-  fragment.appendChild(li);
+  return(li);
 });
 
-galleryList.appendChild(fragment);
+galleryList.append(...galleryItems);
