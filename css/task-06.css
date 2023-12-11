@@ -47,9 +47,7 @@ button {
 
 }
 
-.create-button:hover,
-.create-button:focus,
-.create-button:active  {
+.create-button:hover {
   background-color: #6C8CFF;
 }
 
@@ -57,8 +55,6 @@ button {
   background-color: #FF4E4E;
 }
 
-.destroy-button:hover,
-.destroy-button:focus,
-.destroy-button:active  {
+.destroy-button:hover {
   background-color: #FF7070;
 }
